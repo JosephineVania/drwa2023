@@ -36,3 +36,41 @@
 /Users/j/TodoApi/obj/Debug/net6.0/TodoApi.pdb
 /Users/j/TodoApi/obj/Debug/net6.0/TodoApi.genruntimeconfig.cache
 /Users/j/TodoApi/obj/Debug/net6.0/ref/TodoApi.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/appsettings.Development.json
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/appsettings.json
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/TodoApi
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/TodoApi.deps.json
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/TodoApi.runtimeconfig.json
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/TodoApi.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/TodoApi.pdb
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/TodoApi.csproj.AssemblyReference.cache
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/TodoApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/TodoApi.AssemblyInfoInputs.cache
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/TodoApi.AssemblyInfo.cs
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/TodoApi.csproj.CoreCompileInputs.cache
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/TodoApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/TodoApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/staticwebassets.build.json
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/staticwebassets.development.json
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/scopedcss/bundle/TodoApi.styles.css
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/TodoApi.csproj.CopyComplete
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/TodoApi.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/refint/TodoApi.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/TodoApi.pdb
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/TodoApi.genruntimeconfig.cache
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/Debug/net6.0/ref/TodoApi.dll

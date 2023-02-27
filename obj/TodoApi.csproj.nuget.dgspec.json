@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/j/TodoApi/TodoApi.csproj": {}
+    "/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/TodoApi.csproj": {}
   },
   "projects": {
-    "/Users/j/TodoApi/TodoApi.csproj": {
+    "/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/j/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/Users/j/TodoApi/TodoApi.csproj",
+        "projectPath": "/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/TodoApi.csproj",
         "packagesPath": "/Users/j/.nuget/packages/",
-        "outputPath": "/Users/j/TodoApi/obj/",
+        "outputPath": "/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/j/.nuget/NuGet/NuGet.Config"
