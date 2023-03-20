@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "w0kleaBO4TClW+nSZY4STCo+pA9Vdy5EKuBtApQwUZxBZIKCJhvXz1KrA1h09p2GCXunz+v1QIYSXviFBjGYzQ==",
+  "dgSpecHash": "ZRAZL4KRqkQIVqy+WCFiOSd6S4oh8BmN9EPdbinDHmNbj+2YD6moNdrtrS5W1G138u027k1fsQMMlFg3tYEQaQ==",
   "success": true,
   "projectFilePath": "/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/TodoApi.csproj",
   "expectedPackageFiles": [
+    "/Users/j/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
+    "/Users/j/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/Users/j/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/j/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/j/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/Users/j/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/j/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.11/microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "/Users/j/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -74,6 +77,10 @@
     "/Users/j/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/j/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/Users/j/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "/Users/j/.nuget/packages/mongodb.bson/2.19.0/mongodb.bson.2.19.0.nupkg.sha512",
+    "/Users/j/.nuget/packages/mongodb.driver/2.19.0/mongodb.driver.2.19.0.nupkg.sha512",
+    "/Users/j/.nuget/packages/mongodb.driver.core/2.19.0/mongodb.driver.core.2.19.0.nupkg.sha512",
+    "/Users/j/.nuget/packages/mongodb.libmongocrypt/1.7.0/mongodb.libmongocrypt.1.7.0.nupkg.sha512",
     "/Users/j/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/j/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/j/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
@@ -102,6 +109,8 @@
     "/Users/j/.nuget/packages/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/j/.nuget/packages/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/j/.nuget/packages/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "/Users/j/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
+    "/Users/j/.nuget/packages/snappier/1.0.0/snappier.1.0.0.nupkg.sha512",
     "/Users/j/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/j/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/j/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
@@ -190,7 +199,8 @@
     "/Users/j/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/Users/j/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
     "/Users/j/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/Users/j/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
+    "/Users/j/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
+    "/Users/j/.nuget/packages/zstdsharp.port/0.6.2/zstdsharp.port.0.6.2.nupkg.sha512"
   ],
   "logs": []
 }
