@@ -6,11 +6,11 @@ namespace UtsDrwaApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class JadwalMapelController : ControllerBase
+public class JadwalGuruController : ControllerBase
 {
-    private readonly JadwalMapelService _jadwalService;
+    private readonly JadwalGuruService _jadwalService;
 
-    public JadwalMapelController(JadwalMapelService jadwalService) =>
+    public JadwalGuruController(JadwalGuruService jadwalService) =>
         _jadwalService = jadwalService;
 
     [HttpPost]

@@ -4,12 +4,12 @@ using MongoDB.Driver;
 
 namespace UtsDrwaApi.Services;
 
-public class JadwalMapelService
+public class JadwalGuruService
 {
     private readonly IMongoCollection<Guru> _guruCollection;
 
-    public JadwalMapelService(
-        IOptions<GuruDatabaseSettings> guruDatabaseSettings)
+    public JadwalGuruService(
+        IOptions<UtsDrwaDatabaseSettings> guruDatabaseSettings)
     {
         var mongoClient = new MongoClient(
             guruDatabaseSettings.Value.ConnectionString);

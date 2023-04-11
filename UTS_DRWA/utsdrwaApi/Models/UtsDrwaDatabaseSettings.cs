@@ -1,6 +1,6 @@
 namespace UtsDrwaApi.Models;
 
-public class GuruDatabaseSettings
+public class UtsDrwaDatabaseSettings
 {
     public string ConnectionString { get; set; } = null!;
 

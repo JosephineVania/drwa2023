@@ -3,8 +3,8 @@ using UtsDrwaApi.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.Configure<GuruDatabaseSettings>(
-    builder.Configuration.GetSection("GuruDatabase"));
+builder.Services.Configure<UtsDrwaDatabaseSettings>(
+    builder.Configuration.GetSection("UtsDrwaDatabase"));
 
 builder.Services.AddSingleton<GuruService>();
 builder.Services.AddControllers();

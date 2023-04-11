@@ -9,7 +9,7 @@ public class GuruService
     private readonly IMongoCollection<Guru> _guruCollection;
 
     public GuruService(
-        IOptions<GuruDatabaseSettings> guruDatabaseSettings)
+        IOptions<UtsDrwaDatabaseSettings> guruDatabaseSettings)
     {
         var mongoClient = new MongoClient(
             guruDatabaseSettings.Value.ConnectionString);

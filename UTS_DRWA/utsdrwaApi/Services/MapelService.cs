@@ -9,7 +9,7 @@ public class MapelService
     private readonly IMongoCollection<Guru> _guruCollection;
 
     public MapelService(
-        IOptions<GuruDatabaseSettings> guruDatabaseSettings)
+        IOptions<UtsDrwaDatabaseSettings> guruDatabaseSettings)
     {
         var mongoClient = new MongoClient(
             guruDatabaseSettings.Value.ConnectionString);
