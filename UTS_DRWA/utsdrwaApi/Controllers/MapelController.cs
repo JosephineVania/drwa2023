@@ -14,19 +14,19 @@ public class MapelController : ControllerBase
         _mapel = mapelService;
 
     [HttpPost]
-    public async Task<IActionResult> Post(Guru newMapel)
+    public async Task<IActionResult> Post(Mapel newMapel)
     {
         await _mapel.CreateAsync(newMapel);
 
-        return CreatedAtAction(nameof(Get), new { id = newMapel.Mapel }, newMapel);
+        return CreatedAtAction(nameof(Get), new { id = newMapel.kodeMapel }, newMapel);
     }
 
     [HttpGet]
-    public async Task<List<Guru>> Get() =>
+    public async Task<List<Mapel>> Get() =>
         await _mapel.GetAsync();
 
-    [HttpGet("{id:length(24)}")]
-    public async Task<ActionResult<Guru>> Get(string nip)
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Mapel>> Get(string nip)
     {
         var mapel = await _mapel.GetAsync(nip);
 

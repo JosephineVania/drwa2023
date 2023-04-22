@@ -7,6 +7,17 @@ builder.Services.Configure<UtsDrwaDatabaseSettings>(
     builder.Configuration.GetSection("UtsDrwaDatabase"));
 
 builder.Services.AddSingleton<GuruService>();
+
+builder.Services.Configure<MapelDatabaseSettings>(
+    builder.Configuration.GetSection("MapelDatabase"));
+
+builder.Services.AddSingleton<MapelService>();
+
+builder.Services.Configure<JadwalDatabaseSettings>(
+    builder.Configuration.GetSection("JadwalGuruDatabase"));
+
+builder.Services.AddSingleton<JadwalGuruService>();
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

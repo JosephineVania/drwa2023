@@ -8,10 +8,14 @@ public class Mapel
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string? id { get; set; }
+    public string? kodeMapel { get; set; }
 
-    [BsonElement("Name")]
-    public string mapel { get; set; } = null!;
 
-    public string ruang { get; set; } = null!;
+    [BsonElement("namaMapel")]
+    public string namaMapel { get; set; } = null!;
+
+    public string nip { get; set; } = null!;
+
+    public string sks { get; set; } = null!;
 
 }

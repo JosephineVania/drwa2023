@@ -6,33 +6,33 @@ namespace UtsDrwaApi.Services;
 
 public class JadwalGuruService
 {
-    private readonly IMongoCollection<Guru> _guruCollection;
+    private readonly IMongoCollection<JadwalGuru> _jadwalCollection;
 
     public JadwalGuruService(
-        IOptions<UtsDrwaDatabaseSettings> guruDatabaseSettings)
+        IOptions<JadwalDatabaseSettings> jadwalDatabaseSettings)
     {
         var mongoClient = new MongoClient(
-            guruDatabaseSettings.Value.ConnectionString);
+            jadwalDatabaseSettings.Value.ConnectionString);
 
         var mongoDatabase = mongoClient.GetDatabase(
-            guruDatabaseSettings.Value.DatabaseName);
+            jadwalDatabaseSettings.Value.DatabaseName);
 
-        _guruCollection = mongoDatabase.GetCollection<Guru>(
-            guruDatabaseSettings.Value.GuruCollectionName);
+        _jadwalCollection = mongoDatabase.GetCollection<JadwalGuru>(
+            jadwalDatabaseSettings.Value.JadwalCollectionName);
     }
 
-    public async Task<List<Guru>> GetAsync() =>
-        await _guruCollection.Find(_ => true).ToListAsync();
+    public async Task<List<JadwalGuru>> GetAsync() =>
+        await _jadwalCollection.Find(_ => true).ToListAsync();
 
-    public async Task<Guru?> GetAsync(string id) =>
-        await _guruCollection.Find(x => x.nip == id).FirstOrDefaultAsync();
+    public async Task<JadwalGuru?> GetAsync(string id) =>
+        await _jadwalCollection.Find(x => x.nip == id).FirstOrDefaultAsync();
 
-    public async Task CreateAsync(Guru newGuru) =>
-        await _guruCollection.InsertOneAsync(newGuru);
+    public async Task CreateAsync(JadwalGuru newGuru) =>
+        await _jadwalCollection.InsertOneAsync(newGuru);
 
-    public async Task UpdateAsync(string id, Guru updatedGuru) =>
-        await _guruCollection.ReplaceOneAsync(x => x.nip == id, updatedGuru);
+    public async Task UpdateAsync(string id, JadwalGuru updatedGuru) =>
+        await _jadwalCollection.ReplaceOneAsync(x => x.nip == id, updatedGuru);
 
     public async Task RemoveAsync(string id) =>
-        await _guruCollection.DeleteOneAsync(x => x.nip == id);
+        await _jadwalCollection.DeleteOneAsync(x => x.nip == id);
 }

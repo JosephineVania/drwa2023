@@ -7,19 +7,13 @@ public class Guru
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
+    public string? Id { get; set; }
     public string? nip { get; set; }
-    public string? kodeMapel { get; set; }
 
-    [BsonElement("Name")]
-    public string Nama { get; set; } = null!;
+    [BsonElement("nama")]
+    public string nama { get; set; } = null!;
 
-    public string Kota { get; set; } = null!;
+    public string kota { get; set; } = null!;
 
-    public string Mapel { get; set; } = null!;
-
-    public string JadwalHari { get; set; } = null!;
-
-    public string JadwalJam { get; set; } = null!;
-
-    public string JadwalRuang { get; set; } = null!;
+    
 }
