@@ -13,18 +13,12 @@ public class Book
 
     [BsonElement("Name")]
     [JsonPropertyName("Name")]
-    [Required]
-    [StringLength(100, MinimumLength = 2)]
     public string BookName { get; set; } = null!;
     
     [Required]
-    [Range(0, 999)]
-    public decimal Price { get; set; }
+    public decimal? Price { get; set; }
     
-    [Required]
-    [StringLength(100, MinimumLength = 2)]
     public string Category { get; set; } = null!;
 
-    [Required]
     public string Author { get; set; } = null!;
 }
