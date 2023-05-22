@@ -48,3 +48,10 @@
 /Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/BookStoreApi/obj/Debug/net7.0/BookStoreApi.pdb
 /Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/BookStoreApi/obj/Debug/net7.0/BookStoreApi.genruntimeconfig.cache
 /Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/BookStoreApi/obj/Debug/net7.0/ref/BookStoreApi.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/BookStoreApi/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/BookStoreApi/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/BookStoreApi/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/BookStoreApi/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/BookStoreApi/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/BookStoreApi/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/j/Documents/Semester 4/Tugas/Desain Restful Web API/drwa2023/BookStoreApi/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
