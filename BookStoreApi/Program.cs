@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
+var MyAllowSpecificDrigins = "_myAllowSpecificDrigins";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -62,6 +63,16 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+// add cors
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificDrigins,
+                    policy =>
+                    {
+                        policy.WithOrigins("http://localhost:5126");
+                    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -74,7 +85,11 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
+
 app.UseAuthorization();
+
+app.UseCors(MyAllowSpecificDrigins);
+
 IConfiguration configuration = app.Configuration;
 IWebHostEnvironment environment = app.Environment;
 
