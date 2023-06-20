@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 using System.Text.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
 
-namespace BookStoreApi{
+namespace UasDrwaApi{
     public class User
     {
         public string UserName { get; set; }

@@ -1,5 +1,7 @@
 using System.Text;
 using BookStoreApi.Models;
+using UasDrwaApi.Models;
+using UasDrwaApi.Services;
 using BookStoreApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -11,6 +13,26 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.Configure<BookStoreDatabaseSettings>(
     builder.Configuration.GetSection("BookStoreDatabase"));
+
+builder.Services.Configure<KelasUasDatabaseSettings>(
+    builder.Configuration.GetSection("KelasUasDatabase"));
+    builder.Services.AddSingleton<KelasUasService>();
+
+builder.Services.Configure<MapelDatabaseSettings>(
+    builder.Configuration.GetSection("MapelDatabase"));
+    builder.Services.AddSingleton<MapelService>();
+
+builder.Services.Configure<GuruDatabaseSettings>(
+    builder.Configuration.GetSection("GuruDatabase"));
+    builder.Services.AddSingleton<GuruService>();
+
+builder.Services.Configure<PresensiHarianGuruDatabaseSettings>(
+    builder.Configuration.GetSection("PresensiHarianGuruDatabase"));
+    builder.Services.AddSingleton<PresensiHarianGuruService>();
+
+builder.Services.Configure<PresensiMengajarDatabaseSettings>(
+    builder.Configuration.GetSection("PresensiMengajarDatabase"));
+    builder.Services.AddSingleton<PresensiMengajarService>();
 
 builder.Services.AddSingleton<BooksService>();
 

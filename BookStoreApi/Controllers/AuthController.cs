@@ -5,7 +5,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace BookStoreApi.Controllers
+namespace UasDrwaApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
