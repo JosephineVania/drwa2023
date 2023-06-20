@@ -25,15 +25,15 @@ public class PresensiMengajarService
         await _presensimengajarCollection.Find(_ => true).ToListAsync();
 
     public async Task<PresensiMengajar?> GetAsync(string id) =>
-        await _presensimengajarCollection.Find(x => x.NIP == id).FirstOrDefaultAsync();
+        await _presensimengajarCollection.Find(x => x.nip == id).FirstOrDefaultAsync();
 
     public async Task CreateAsync(PresensiMengajar newPresensiMengajar) =>
         await _presensimengajarCollection.InsertOneAsync(newPresensiMengajar);
 
     public async Task UpdateAsync(string id, PresensiMengajar updatedPresensiMengajar) =>
-        await _presensimengajarCollection.ReplaceOneAsync(x => x.NIP == id, updatedPresensiMengajar);
+        await _presensimengajarCollection.ReplaceOneAsync(x => x.nip == id, updatedPresensiMengajar);
 
     public async Task RemoveAsync(string id) =>
-        await _presensimengajarCollection.DeleteOneAsync(x => x.NIP == id);
+        await _presensimengajarCollection.DeleteOneAsync(x => x.nip == id);
         
 }

@@ -8,7 +8,7 @@ public class PresensiMengajar
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string? id {get; set; }
-    public string? NIP { get; set; }
+    public string? nip { get; set; }
 
     [BsonElement("Nama")]
     public string Tgl { get; set; } = null!;
