@@ -15,4 +15,5 @@ public class Guru
 
     public string Kelas { get; set; } = null!;
 
+
 }

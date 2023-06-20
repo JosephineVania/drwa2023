@@ -7,4 +7,5 @@ public class GuruDatabaseSettings
     public string DatabaseName { get; set; } = null!;
 
     public string GuruCollectionName { get; set; } = null!;
+    
 }

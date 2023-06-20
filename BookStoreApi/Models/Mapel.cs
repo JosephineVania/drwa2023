@@ -14,4 +14,5 @@ public class Mapel
 
     public string Kelas { get; set; } = null!;
 
+
 }

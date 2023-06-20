@@ -35,4 +35,5 @@ public class GuruService
 
     public async Task RemoveAsync(string id) =>
         await _guruCollection.DeleteOneAsync(x => x.NIP == id);
+        
 }

@@ -35,4 +35,5 @@ public class MapelService
 
     public async Task RemoveAsync(string id) =>
         await _mapelCollection.DeleteOneAsync(x => x.id == id);
+        
 }

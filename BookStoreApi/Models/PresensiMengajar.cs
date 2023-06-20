@@ -14,5 +14,6 @@ public class PresensiMengajar
     public string Tgl { get; set; } = null!;
     public string Kehadiran { get; set; } = null!;
     public string Kelas { get; set; } = null!;
+    
 
 }

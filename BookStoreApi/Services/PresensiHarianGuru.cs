@@ -35,4 +35,5 @@ public class PresensiHarianGuruService
 
     public async Task RemoveAsync(string id) =>
         await _presensiharianguruCollection.DeleteOneAsync(x => x.nip == id);
+        
 }

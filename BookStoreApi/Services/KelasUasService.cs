@@ -35,4 +35,5 @@ public class KelasUasService
 
     public async Task RemoveAsync(string id) =>
         await _kelasCollection.DeleteOneAsync(x => x.id == id);
+        
 }

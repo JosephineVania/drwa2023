@@ -7,4 +7,5 @@ public class PresensiMengajarDatabaseSettings
     public string DatabaseName { get; set; } = null!;
 
     public string PresensiMengajarCollectionName { get; set; } = null!;
+    
 }

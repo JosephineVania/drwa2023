@@ -96,4 +96,5 @@ public class PresensiHarianGuruController : ControllerBase
 
         return NoContent();
     }
+    
 }

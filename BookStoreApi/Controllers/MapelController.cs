@@ -96,5 +96,6 @@ public class MapelController : ControllerBase
         await _mapelService.RemoveAsync(id);
 
         return NoContent();
+ 
     }
 }

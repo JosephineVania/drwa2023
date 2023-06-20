@@ -12,4 +12,5 @@ public class KelasUas
     [BsonElement("Nama")]
     public string Nama { get; set; } = null!;
 
+
 }

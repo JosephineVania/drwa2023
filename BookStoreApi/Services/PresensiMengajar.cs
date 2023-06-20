@@ -35,4 +35,5 @@ public class PresensiMengajarService
 
     public async Task RemoveAsync(string id) =>
         await _presensimengajarCollection.DeleteOneAsync(x => x.NIP == id);
+        
 }

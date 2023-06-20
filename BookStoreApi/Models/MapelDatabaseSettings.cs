@@ -7,4 +7,5 @@ public class MapelDatabaseSettings
     public string DatabaseName { get; set; } = null!;
 
     public string MapelCollectionName { get; set; } = null!;
+    
 }

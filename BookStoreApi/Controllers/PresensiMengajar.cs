@@ -24,7 +24,7 @@ public class PresensiMengajarController : ControllerBase
     {
         await _presensimengajarService.CreateAsync(newPresensiMengajar);
 
-        return CreatedAtAction(nameof(Get), new { id = newPresensiMengajar.nip }, newPresensiMengajar);
+        return CreatedAtAction(nameof(Get), new { id = newPresensiMengajar.NIP }, newPresensiMengajar);
     }
 
     [HttpGet]
@@ -70,7 +70,7 @@ public class PresensiMengajarController : ControllerBase
             return NotFound();
         }
 
-        updatedPresensiMengajar.id = presensimengajar.nip;
+        updatedPresensiMengajar.id = presensimengajar.NIP;
 
         await _presensimengajarService.UpdateAsync(nip, updatedPresensiMengajar);
 
@@ -95,5 +95,6 @@ public class PresensiMengajarController : ControllerBase
         await _presensimengajarService.RemoveAsync(nip);
 
         return NoContent();
+        
     }
 }
