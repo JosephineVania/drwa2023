@@ -9,7 +9,7 @@ public class KelasUas
     [BsonRepresentation(BsonType.ObjectId)]
     public string? id {get; set; }
 
-    [BsonElement("Name")]
+    [BsonElement("Nama")]
     public string Nama { get; set; } = null!;
 
 }

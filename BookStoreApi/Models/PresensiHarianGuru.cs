@@ -10,7 +10,7 @@ public class PresensiHarianGuru
     public string? id {get; set; }
     public string? nip { get; set; }
 
-    [BsonElement("Name")]
+    [BsonElement("Nama")]
     public string Tgl { get; set; } = null!;
     public string Kehadiran { get; set; } = null!;
 

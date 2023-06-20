@@ -8,9 +8,9 @@ public class PresensiMengajar
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string? id {get; set; }
-    public string? nip { get; set; }
+    public string? NIP { get; set; }
 
-    [BsonElement("Name")]
+    [BsonElement("Nama")]
     public string Tgl { get; set; } = null!;
     public string Kehadiran { get; set; } = null!;
     public string Kelas { get; set; } = null!;
